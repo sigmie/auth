@@ -1,11 +1,11 @@
 {
     "name": "sigmie/auth",
-    "description": "Sigmie Authentication package.",
+    "description": "The Sigmie Auth package.",
     "license": "MIT",
-    "homepage": "https://docs.sigmie.com/sigmie/auth",
+    "homepage": "https://docs.sigmie.com",
     "support": {
         "issues": "https://github.com/sigmie/sigmie/issues",
-        "source": "https://github.com/sigmie/auth"
+        "source": "https://github.com/sigmie/sigmie"
     },
     "authors": [
         {
@@ -14,14 +14,19 @@
         }
     ],
     "require": {
-        "php": "^7.4",
-        "sigmie/contracts": "^0.0"
+        "php": "^7.4"
     },
     "autoload": {
         "psr-4": {
             "Sigmie\\Auth\\": ""
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    },
+    "suggest": {},
     "config": {
         "sort-packages": true
     },
